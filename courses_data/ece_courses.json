@@ -1,0 +1,403 @@
+[
+  {
+    "name": "Fundamentals of Communication System",
+    "instructor": "prof. Abhay Kumar Sah",
+    "difficulty": "3 out of 5",
+    "usefulness": "4 out of 5",
+    "challenges": "Understanding complex envelope and baseband equivalent representations, Mastering noise analysis and noise figure calculations, Grasping correlation and power spectrum of random signals, Learning Phase-Locked Loop (PLL) operation and applications, Analyzing effects of noise on AM and FM systems",
+    "overview": "Core communication engineering course covering analog modulation techniques, receiver architectures, and noise analysis in communication systems. Focuses on both theoretical principles and practical implementation of communication systems.",
+    "topics": "Complex envelope rsignals, Amplitude Modulaepresentation of bandpass tion (AM) generation and detection, Frequency Modulation (FM) generation and detection, Phase Modulation (PM) generation and detection, Noise models and noise figure analysis, Correlation and power spectrum analysis, Phase-Locked Loops (PLL) design and applications, FM demodulation methods, Noise effects on AM and FM systems",
+    "review by students": [
+      "Prof. Abhay kumar Sah explains complex topics like the complex envelope and noise analysis very clearly. The derivations are tough, but they solidify the concepts. Great foundational course!",
+      "The course is essential for comms engineers. The PLL section was challenging but the lab demos really helped connect theory to practice. Needs a solid understanding of random processes beforehand.",
+      "A bit math-heavy, especially the noise figure and power spectrum sections. The instructor is knowledgeable and approachable. Highly recommend keeping up with the lectures and problem sets weekly.",
+      "The content is extremely useful; it gives a real-world perspective on AM/FM radio and receiver design. The only downside is the pace—it felt very fast when covering FM demodulators and noise effects.",
+      "Excellent overview of analog communication. The prerequisites ('Signals and Systems' and 'Basic probability') are non-negotiable—if you're weak there, you'll struggle with the mathematical rigor of the course."
+    ],
+    "prerequisites": "Signals and systems, Basic probability and random processes",
+    "credits": "3",
+    "course_code": "ECC-201",
+    "semester": "2024 Autumn"
+    },
+    {
+      "name": "Network Theory",
+      "instructor": "Prof. Saravana Kumar M",
+      "difficulty": "5 out of 5",
+      "usefulness": "5 out of 5",
+      "challenges": "Understanding circuit theorems and complex network analysis, Mastering Laplace transform applications in circuit analysis, Solving complex RLC transient response problems",
+      "overview": "Advanced circuit theory course focusing on network analysis, synthesis, and systematic approaches to solving complex electrical networks. Covers both time-domain and frequency-domain analysis techniques with applications to filter design and network synthesis.",
+      "topics": "Network theorems (Thevenin, Norton, Maximum Power Transfer), State variable analysis using matrix methods, Transient analysis of RL, RC, and RLC circuits, Frequency domain analysis and phasor concepts, Two-port network parameters and interconnected networks, RL and RC network synthesis, Filter design fundamentals",
+      "review by students": [
+        "This course is the ultimate test of circuit fundamentals. Prof. Saravana Kumar is excellent, but you need to dedicate serious time to the Laplace Transform applications. Highly useful, but truly difficult.",
+        "The 5/5 difficulty rating is accurate. The problems on two-port networks and network synthesis are brutal, requiring deep conceptual understanding. It's a foundational course for electronics, though, so it's worth the struggle.",
+        "Be prepared for rigorous math. State variable analysis and RLC transient response were particularly challenging. The course completely changes how you look at circuits, making it incredibly valuable.",
+        "The content is essential for any electrical engineer, especially the filter design and network synthesis sections. Prof. Kumar does a great job explaining the theorems, but mastering the application requires a lot of self-practice.",
+        "The prerequisite of 'Basic Circuit analysis' is a must. If you're shaky on KVL/KCL or nodal/mesh analysis, the advanced topics like two-port interconnections and transient analysis will be almost impossible. Very tough but rewarding."
+      ],
+      "prerequisites": "Basic Circuit analysis",
+      "credits": "2",
+      "course_code": "ECC-205",
+      "semester": "2024 Autumn"
+    },
+    {
+      "name": "Digital Electronics/ Digital logic and systems",
+      "instructor": "Prof. Brijesh Kumar",
+      "difficulty": "4 out of 5",
+      "usefulness": "4 out of 5",
+      "challenges": "Understanding sequential logic timing, Mastering finite state machine design, Learning Hardware Description Languages, Grasping processor architectures and memory mapping, Implementing complex combinational and sequential circuits, Working with programmable logic devices",
+      "overview": "Comprehensive course covering digital logic fundamentals, FPGA design, hardware description languages, and microprocessor/microcontroller architectures. Focuses on practical digital system design with both theoretical foundations and modern implementation techniques.",
+      "topics": "Logic gates, Boolean algebra, combinational circuits, Sequential circuits (latches, flip-flops, registers, counters), Memory systems (ROM, RAM, error detection/correction), FPGA and programmable logic devices",
+      "review by students": [
+        "Prof. Brijesh Kumar makes the initial concepts of logic gates and Boolean algebra very clear. The course accelerates quickly once we hit **FSM (Finite State Machine) design** and **Verilog/VHDL**. Great blend of theory and practical design.",
+        "This course is absolutely vital for computer engineering. The focus on **sequential logic timing** and **processor architecture** was difficult but extremely valuable. The lab exercises with FPGAs were excellent, but be prepared for long debugging sessions.",
+        "The 4/5 difficulty is accurate. While the fundamentals are straightforward, implementing complex systems like counters and registers on a programmable device requires a deep understanding of the HDL. Good course, but a major time commitment.",
+        "I struggled with the **memory mapping** and **error detection/correction** sections, as they required a lot of focus on detail. The instructor is knowledgeable, and the course provides a strong foundation for advanced VLSI or computer architecture.",
+        "Very useful course! It bridges the gap between basic electrical components and high-level computing. Understanding **timing constraints** for sequential circuits was the biggest challenge, but it's a critical skill learned here."
+      ],
+      "prerequisites": "Basic electronics",
+      "course_code": "ECC-104",
+      "semester": "2024 Spring",
+      "credits": "4"
+    },
+   
+    {
+      "name": "Signals and Systems",
+      "instructor": "Prof. Vinod Pankajakshan",
+      "difficulty": "3 out of 5",
+      "usefulness": "5 out of 5",
+      "challenges": "Understanding Fourier transforms and their relationship with Laplace transforms, Mastering z-transform properties and discrete-time system analysis, Grasping discrete Fourier transform computation and applications, Analyzing system properties including linearity and time invariance, Working with pole-zero plots and frequency domain evaluation, Applying transform analysis to discrete-time LTI systems",
+      "overview": "Comprehensive course covering fundamental concepts of signals and systems analysis, focusing on both continuous and discrete-time systems. Provides essential mathematical foundation for signal processing, communication systems, and control systems.",
+      "review by students": [
+        "Absolutely the **most fundamental course** in the curriculum (5/5 usefulness is accurate). Prof. Vinod explains the initial concepts like **convolution** and system properties very well. It's the backbone for almost every advanced course.",
+        "The 3/5 difficulty feels misleading—it's conceptually tough! Mastering the three main transforms (**Fourier, Laplace, and z-transforms**) and knowing when to use each one is a huge challenge. The **pole-zero plots** took a while to click.",
+        "Highly recommend this course. The material is essential for control systems and digital signal processing. My main struggle was the **discrete-time analysis**; the **z-transform** applications require meticulous algebraic skills.",
+        "Great course! The focus on **LTI systems** and their analysis in the time and frequency domains is key. The application of Fourier methods to filter design was a powerful takeaway. Requires consistent effort and practice problems.",
+        "The instructor is great, but the sheer volume of mathematical tools you have to learn is daunting. Be prepared to differentiate and integrate a lot. If you understand the relationship between the transforms, you've conquered the hardest part."
+      ],
+      "topics": "Signal classification, system properties, convolution, Fourier analysis, Filter design (Butterworth, Chebyshev), Time and frequency domain analysis of LTI systems, z-transforms and discrete-time Fourier transforms",
+      "prerequisites": "Basic mathematics",
+      "course_code": "ECC-106",
+      "semester": "2024 Spring",
+      "credits": "4"
+    },
+    {
+      "name": "Electromagnetic Theory",
+      "instructor": "Prof. Gowrish Basavarajappa",
+      "difficulty": "3 out of 5",
+      "usefulness": "2 out of 5",
+      "challenges": "Vector calculus and Maxwell's equations",
+      "overview": "Rewarding course in ECE, Not much of a challenge but important",
+      "topics": "Maxwell's equations, plane wave propagation, Transmission lines and waveguides, Antennas and its Types",
+      "review by students": [
+        "A foundational course for wireless communication. While the core concepts of **Maxwell's equations** are challenging, Prof. Basavarajappa presents them in a very systematic way. The difficulty is manageable if you keep up with the **vector calculus**.",
+        "The course is crucial for understanding how signals travel, especially the sections on **transmission lines and waveguides**. I disagree with the low usefulness rating; this is essential for RF and microwave design. Requires a solid math base.",
+        "This class felt like a transition from circuits to pure physics. The difficulty isn't in the quantity of work, but in the abstract nature of **plane wave propagation**. If you can visualize the fields, it's not too bad.",
+        "It's a rewarding course, as the overview says. The concepts are powerful, especially when you get to **antenna fundamentals**. The 'challenge' is less about the difficulty of the calculations and more about **conceptualizing 3D fields**.",
+        "The most important takeaway is truly understanding **Maxwell's equations**. The course builds everything from that foundation. Prof. Basavarajappa is good, but you absolutely must have a strong grasp of the prerequisites, particularly **Vector Analysis**."
+      ],
+      "prerequisites": "Vector Analysis",
+      "credits": "4",
+      "course_code": "ECC-203",
+      "semester": "2024 Autumn"
+    },
+    {
+      "name": "Semiconductor Devices and Applications",
+      "instructor": "Prof. Biplab Sarkar",
+      "difficulty": "4 out of 5",
+      "usefulness": "5 out of 5",
+      "challenges": "Understanding semiconductor physics, p-n junctions, MOSFET operation, and device modeling",
+      "overview": "Comprehensive course covering semiconductor device physics and practical applications, essential for VLSI and electronics design",
+      "review by students": [
+        "This is arguably the most important foundational course for any electronics major. Prof. Sarkar is a fantastic instructor, but mastering **semiconductor physics** and **carrier transport** requires deep focus. The physics part is the hardest.",
+        "The **MOSFET operation and modeling** section is challenging, but crucial for VLSI design. The course clearly links the underlying physics (energy bands, p-n junctions) to practical devices like LEDs and solar cells. Extremely useful, a must-take.",
+        "Be prepared for a lot of heavy theoretical concepts, particularly the **quantum mechanics** aspects of device operation. The difficulty rating of 4/5 is accurate. You'll truly understand how a transistor works after this course.",
+        "The course is very demanding, but the payoff is huge. The practical applications (optical devices, solar cells) were fascinating. My biggest challenge was keeping all the equations straight for **BJT and MOSFET characteristics**.",
+        "Essential course for circuits and electronics. I highly recommend reviewing **basic solid-state physics** before starting. Prof. Sarkar ensures you understand the 'why' behind the device behavior, making it tough but incredibly rewarding."
+      ],
+      "topics": "Semiconductor materials, crystal structure, energy bands, carrier transport, p-n junctions, MOS electrostatics, MOSFET, BJT, optical devices, solar cells, LEDs, photodetectors",
+      "prerequisites": "Basic physics and mathematics",
+      "credits": "4",
+      "course_code": "ECC-102",
+      "semester": "2024 Spring"
+    },
+    {
+      "name": "Introduction to Bio-Signal and Image Analysis",
+      "instructor": "prof. Pyari Mohan Pradhan and prof. Tharun Kumar Reddy Bollu",
+      "difficulty": "4 out of 5",
+      "usefulness": "4 out of 5",
+      "challenges": "Should have prerequistes knowledge in python and hands on experience on handling data sets",
+      "overview": "This course provides the specialized tools necessary to analyze complex, high-dimensional data derived from biological sources. The core function is to transform raw, noisy bio-data (signals or images) into meaningful, reduced, and highly informative representations (Features and Time-Frequency Analysis) using sophisticated Dimensionality Reduction and Image Processing methods. These refined representations are then fed into Machine Learning algorithms to automate tasks like detection, diagnosis, or prediction, thus bridging the gap between raw data and clinical/research insights.",
+      "review by students": [
+        "A very modern and practical course. The biggest challenge is definitely the **hands-on coding in Python**. Prof. Pradhan and Prof. Reddy do a great job of covering **Time-Frequency Analysis** and **Dimensionality Reduction**, which are key to cleaning real-world bio-signals (like ECG or EEG).",
+        "This course is a perfect bridge between traditional signal processing and **applied Machine Learning**. The section on **Image Processing** was fascinating, especially the projects involving medical image segmentation. Be prepared to spend a lot of time coding and debugging the ML pipelines.",
+        "The 4/5 difficulty is well-deserved. If you don't come in with a strong background in **Python and data handling**, you will struggle. The sheer volume of techniques—from **PCA** to **wavelets** to **classification algorithms**—is a lot to digest, but incredibly relevant for biomedical research.",
+        "Excellent instructors who provided relevant, complex biological datasets to work with. The course successfully taught me how to take raw, noisy data and extract meaningful **features** for diagnosis. It's less theory and more **application-focused**, which I appreciated.",
+        "The initial review by students is too brief; this course is far more than just 'signal processing techniques.' It’s about creating an end-to-end ML solution for bio-data. The material on **feature extraction** and preparing the data for the **classification stage** was the most useful, if also the most challenging part."
+      ],
+      "topics": "Dimensionality Reduction Techniques, Feature Extraction Methods,Image Processing Techniques, Time-Frequency Analysis, Machine Learning Applications in Bio-Signal and Image Analysis",
+      "prerequisites": "Python",
+      "credits": "2",
+      "course_code": "TEB:ECT-107",
+      "semester": "2025 Spring"
+    },
+    {
+      "name": "RF Simulation Techniques",
+      "instructor": "prof. Amalendu Patnaik",
+      "difficulty": "3/5 ",
+      "usefulness": "4/5",
+      "challenges": "3D EM setup, antenna optimization, S-parameter interpretation and simulation convergence",
+      "overview": "CST and antenna simulation focus with variable depth,essential for RF design and electromagnetic analysis.Practical electromagnetic simulation using CST Studio Suite for antennas, filters and high-frequency components; emphasizes iterative optimization and analysis",
+      "topics": "Ring resonator,Dipole and Monopole Antenna,microchip patch Antenna,stripline and Microstripline,Annalysis of s-parameters",
+      "review by students": [
+        "This course is highly practical and application-oriented. Prof. Patnaik focuses heavily on hands-on sessions with **CST Studio Suite**. The content isn't conceptually new (as stated, it relies on EM Theory), but learning the **3D EM setup** and ensuring **simulation convergence** is where the real challenge lies. Essential for anyone aiming for an RF/Microwave career.",
+        "Excellent course for building skills in **CAD software** for RF components. Modeling the **microstrip patch antenna** and optimizing its performance (gain, bandwidth) was the most rewarding part. The interpretation of **S-parameters** (especially S11 and S21) is critical and well-taught. The deadlines were manageable, making the learning curve smooth.",
+        "The difficulty rating of 3/5 is fair, as the complexity is in the software, not the core theory. I really appreciated the focus on practical structures like **ring resonators** and **stripline/microstripline** transmission lines. This course is a direct pathway to industry skills in RF engineering.",
+        "Prof. Patnaik provides a great introduction to the workflow of an RF designer. While we learned how to model different antennas, the true value was in understanding how to perform **iterative optimization** to meet specific design targets. Highly recommend if you want tangible skills to put on your resume.",
+        "The course is worth it if you are interested in the high-frequency domain. The lectures on the **analysis of S-parameters** were very clear. The main challenge was debugging the **3D EM setup** when unexpected results occurred, but this is a real-world skill the course helps you develop."
+      ],
+      "prerequisites": "Electromagnetic Theory ",
+      "credits": "2",
+      "course_code": "TEB:ECT-101",
+      "semester": "2025 Spring"
+    },
+    {
+      "name": "VLSI Circuit Design",
+      "instructor": "prof. Anand bulusu",
+      "difficulty": "4 out of 5",
+      "usefulness": "5 out of 5",
+      "challenges": "Cadence Virtuoso workflow, extensive lab hours, frequent quizzes and detailed schematic/layout design",
+      "overview": "Transistor-level VLSI circuit design including schematic capture and custom layout using Cadence Virtuoso with practical lab assignments.Cadence Virtuoso usage and lab/project intensity determine perceived difficulty",
+      "topics": "Semiconductor physics, logical effort, critical path, cadence - schematic, layout of not, nand, nor, latch, flipflop, project (encoder/ decoder/multiplier)",
+      "review by students": [
+        "This is the cornerstone course for a VLSI career (5/5 usefulness). Prof. Bulusu dives deep into **transistor-level design**. Mastering the **Cadence Virtuoso workflow** for **layout** and DRC/LVS is the main skill learned, but it demands **extensive lab hours**.",
+        "The course is challenging (4/5) due to the sheer intensity of the lab work and **frequent quizzes**. Debugging the **schematic-to-layout verification** for complex sequential circuits like the **flip-flop** or the final **project** requires a lot of patience and curiosity.",
+        "The material on **logical effort** and **critical path** analysis is essential and well-taught. This skill set is a huge resume booster for core VLSI roles. You must be willing to **explore and learn** the tool, as the prerequisites only scratch the surface.",
+        "Be prepared for competition; the difficulty depends heavily on the batch and the project complexity. Working on the **custom layout of the basic gates (NAND/NOR)** gives a great appreciation for the physical design process. Highly rewarding if you love hardware.",
+        "My main takeaway was understanding the non-ideal behavior of circuits from a **semiconductor physics** perspective and translating that into the physical design rules. The **layout design** aspect is meticulous and time-consuming, but gives you an industry-ready skill."
+      ],
+      "prerequisites": "Cadence Virtuoso",
+      "credits": "2",
+      "course_code": "TEB:ECT-111 ",
+      "semester": "2025 Atumn"
+    },
+    {
+      "name": "Fabrication Techniques",
+      "instructor": "prof. Arnab Datta ",
+      "difficulty": "2 out of 5",
+      "usefulness": "3 out of 5",
+      "challenges": "Cleanroom practices, process variability, handling lithography and thin-film deposition processes",
+      "overview": "Comprehensive coverage of microfabrication processes including lithography, etching, deposition and cleanroom protocols.",
+      "topics": "",
+      "review by students": [
+        "This course is fundamental for understanding the physical reality behind **semiconductor devices** and **VLSI**. Prof. Datta clearly explained the entire **process flow for ICs**, from **oxidation** to **metallization**. It's not mathematically complex, but requires memorizing many process steps.",
+        "The difficulty (2/5) is low, but the knowledge is crucial (high usefulness for certain career paths). Learning about **Cleanroom practices** and **RCA cleaning methods** gives you great context. Dealing with **process variability** in the lab demos was a good lesson in manufacturing realities.",
+        "Excellent for getting a hands-on feel for **microfabrication**. The section on **lithography (pattern transfer)** and **etching (pattern definition)** was the most insightful part, showing how tiny features are created. Essential knowledge for anyone going into foundry work or advanced device research.",
+        "The course is a comprehensive study of the manufacturing steps. I found the material on **thin-film deposition (sputtering)** and **doping (impurity introduction)** to be particularly useful. It closes the loop between the device physics learned in previous courses and the actual construction of a transistor.",
+        "ECT-116 provides a strong foundation for both **ICs and MEMS**. The curriculum detailing the fundamental steps like **lithography** and **deposition** is very well structured. While the concepts aren't hard, remembering the specifics of each process and handling the **cleanroom protocols** correctly is key."
+      ],
+      "prerequisites": "Semiconductors,Solid-State Physics or Materials Science basics of crystal structure and diffusion",
+      "credits": "2",
+      "course_code": "TEB:ECT-116",
+      "semester": "2025 Spring"
+    },
+    {
+      "name": "Electronics Subsystems",
+      "instructor": "NA",
+      "difficulty": "4 out of 5",
+      "usefulness": "4 out of 5",
+      "challenges": "The core challenges in ECN-357 involve high mathematical rigor for synthesizing passive networks (Foster/Cauer forms) from immittance functions. Students struggle to translate system specifications into active filter component values and analyze complex sub-systems like switched capacitor filters. Furthermore, applying statistical concepts to accurately model and track various noise sources (thermal, shot) presents a significant conceptual hurdle. Finally, integrating knowledge across disciplines to understand and troubleshoot mixed-signal systems like non-ideal ADCs/DACs and Phase-Locked Loops is demanding.",
+      "overview": "The course aims to bridge the gap between fundamental electronic concepts (like basic circuits and devices) and the integrated, functional blocks used in real-world electronic systems. It focuses on how individual components are combined and designed to meet specific system-level requirements, especially concerning signal processing (filters), computation (digital sub-systems), data conversion (mixed-signal), and system reliability (noise).",
+      "topics": "Synthesis of Passive Networks,Active Filters,Digital Sub-Systems,Noise in Electronic Sub-Systems,Mixed-Signal Systems",
+      "review by students": [
+        "This is a mathematically intense course, especially the section on **synthesizing passive networks using Foster/Cauer forms**. It requires a very strong foundation from Network Theory. Extremely useful for understanding high-performance system design.",
+        "The course is challenging because it demands integration of knowledge. You need to apply digital logic, circuit theory, and noise analysis simultaneously, particularly when dealing with **mixed-signal systems** like non-ideal DACs/ADCs.",
+        "The modules on **noise in electronic subsystems** and its statistical modeling were conceptually difficult. Understanding how thermal and shot noise propagate through a system is a significant hurdle, but essential for low-power design.",
+        "The analysis of **switched capacitor filters** was a major time sink. It's a great course for bridging theory and real-world system blocks, but the **mathematical rigor** is unforgiving. Be prepared to dedicate serious study time.",
+        "Excellent for future Analog/System engineers. The **Active Filters** design section, where we translated specifications into component values, was practical and eye-opening, though the component selection process was quite complex."
+      ],
+      "prerequisites": "Knowledge of Network theory, signals and systems and digital logic",
+      "credits": "3",
+      "course_code": "PEC:ECL-357 ",
+      "semester": "2026 Spring"
+    },
+    {
+      "name": "Machine Learning in Semiconductor Manufacturing",
+      "instructor": "NA ",
+      "difficulty": "4 out of 5",
+      "usefulness": "5 out of 5",
+      "challenges": "The primary challenges in ECN-347 stem from the conceptual difficulty of modeling parasitic and distributed effects at high frequencies, necessitating complex techniques like de-embedding. A solid grasp of advanced solid-state physics is essential to understand the operation of specialized microwave devices like Gunn diodes and HEMTs. The course demands practical precision in the process of SPICE parameter extraction to create accurate device models from measurement data. Finally, integrating these models requires a strong understanding of RF circuit concepts like impedance matching and noise figure trade-offs for amplifier design.",
+      "overview": "This course focuses on the behavior of semiconductor devices when operating at high frequencies (RF/Microwave), where traditional DC/low-frequency models break down due to parasitic effects, transit time, and distributed circuit phenomena. It teaches the crucial techniques needed to accurately model these devices for simulation and circuit design.",
+      "topics": "Diode Parameter Extraction,Modeling of Diodes,Modeling of MESFET/MOSFET and HEMT,Switches & RF Circuits,Transistor Based RF Amplifiers",
+      "review by students": [
+        "Despite the name, this is a deep dive into **RF/Microwave Device Modeling**. The material on **parasitic and distributed effects** is incredibly challenging but essential for high-speed design. You absolutely need a strong background in electronic devices.",
+        "The core difficulty lies in the practical task of **SPICE parameter extraction**. It demands precision and deep understanding of how device physics translates into the analytical model equations. Very useful skill for the semiconductor industry.",
+        "Understanding the specialized devices like **HEMTs and Gunn diodes** and their high-frequency behavior was fascinating. The concepts of **impedance matching** and **noise figure trade-offs** for RF amplifiers are well-covered but require a lot of practice.",
+        "This course is the next level after basic device physics. **De-embedding** techniques and modeling the breakdown of traditional low-frequency models are conceptually tough. This course is for serious students aiming for high-frequency circuit design roles.",
+        "Extremely high usefulness (5/5). It’s an advanced topic, where the **mathematics meets the physics of high-speed electronics**. Be ready for rigorous derivations and a high degree of technical detail in the device models."
+      ],
+      "prerequisites": "Knowledge of operating principles of Electronic Devices.",
+      "credits": "3",
+      "course_code": "PEC:ECL-358",
+      "semester": "2026 Spring"
+    },
+    {
+      "name": "Digital Image Processing",
+      "instructor": "NA ",
+      "difficulty": "4 out of 5",
+      "usefulness": "5 out of 5",
+      "challenges": "Mathematical Complexity: Deep understanding of the 2D Fourier Transform and statistical models for image restoration (like the Wiener filter).Implementation Difficulty: Translating complex algorithms into efficient, functional code (MATLAB/Python) and parameter tuning for optimal results.Real-World Variability: Dealing with highly variable image noise and degradation, and the subjective nature of image enhancement techniques.",
+      "overview": "Digital Image Processing (DIP) is a field that uses a computer to perform operations on a digital image, often with the goal of improving pictorial information for human interpretation (Image Enhancement) or processing image data for autonomous machine perception (e.g., in computer vision applications).The course objective is generally to provide students with a strong mathematical and algorithmic foundation to understand, implement, and apply these techniques. Implementation is often done using programming tools like MATLAB..",
+      "topics": "Digital Image Fundamentals,Image Enhancement,Image Compression,Image Segmentation:,Morphological Image Processing,Representation and Description",
+      "review by students": [
+        "A conceptually challenging course that requires strong mathematical skills, especially for understanding the **2D Fourier Transform** and its applications in filtering. The **Image Segmentation** techniques were the most engaging part.",
+        "High usefulness, particularly for CV/ML careers. The difficulty comes from the **implementation of complex algorithms** in code (Python/MATLAB). Translating the theory for filters and morphological operations into efficient functions is a major time commitment.",
+        "I struggled with the **Image Restoration** section, specifically deriving and applying the **Wiener filter**, which is statistically complex. The concepts of image **compression** were very practical and insightful.",
+        "Excellent overview of DIP fundamentals. It requires you to be comfortable with **Signals and Systems** concepts applied to two dimensions. Dealing with **real-world image noise and degradation** made the enhancement and restoration labs very tricky.",
+        "This course provides the algorithmic foundation for Computer Vision. Mastering **Representation and Description** techniques and understanding the trade-offs in **Image Compression** are key takeaways. A solid foundation in programming is non-negotiable."
+      ],
+      "prerequisites": "Signals and Systems,Programming and Implementation(python)",
+      "credits": "3",
+      "course_code": "PEC:ECL-316",
+      "semester": "2026 Spring"
+    },
+    {
+      "name": "Fundamentals of Microelectronics",
+      "instructor": "NA ",
+      "difficulty": "4 out of 5",
+      "usefulness": "5 out of 5",
+      "challenges": "Understanding fading channels and diversity techniques, Mastering multiple access schemes, Learning MIMO systems, Cellular system planning",
+      "overview": "Advanced communication course covering modern wireless technologies, cellular systems, and emerging wireless standards.",
+      "topics": "Wireless propagation models, Diversity techniques, OFDM, MIMO systems, 4G/5G technologies, Wireless network protocols",
+      "review by students": [
+        "Despite the name (it's really an **Advanced Wireless Comm course**), the material is top-notch and a must-take (5/5 usefulness). Mastering **MIMO systems** and understanding the theoretical gains of **diversity techniques** was the most intellectually rewarding challenge.",
+        "The 4/5 difficulty is accurate. The course is conceptually demanding, especially the sections on **fading channels** and **wireless propagation models**. It requires strong probability and signals/systems knowledge to fully grasp the performance analysis.",
+        "**OFDM** and the introduction to **4G/5G technologies** were highly relevant and practical. The complexity mainly arises from the mathematical analysis of modern **multiple access schemes** and system performance in realistic channel conditions.",
+        "Excellent preparation for a career in wireless R&D. The focus on **cellular system planning** ties everything together, showing how the theoretical models translate to real-world infrastructure. The prerequisites, especially knowledge of **Semiconductors**, are critical for understanding the underlying hardware limitations.",
+        "I struggled most with the conceptual jump from basic wireless to **MIMO** and its spatial processing. The course is highly valuable for understanding modern standards like LTE/5G. It's a difficult but essential deep dive into the physical layer of wireless networks."
+      ],
+      "prerequisites": "Semiconductors",
+      "credits": "3",
+      "course_code": "PEC:ECL-343",
+      "semester": "2026 Spring"
+    },
+    {
+      "name": "Introduction to Information and Communication Theory ",
+      "instructor": "NA ",
+      "difficulty": "4 out of 5",
+      "usefulness": "5 out of 5",
+      "challenges": "The primary difficulty in ECN-360 lies in the conceptual abstraction of entropy and its application to rigorously calculate mutual information and channel capacity for DMCs. A strong mathematical background is essential for deriving the Shannon-Hartley theorem and extending capacity concepts to complex AWGN and MIMO channels. Students often face challenges differentiating between the theoretical limits of source coding (data compression) and channel coding (error correction) based on the respective coding theorems. Lastly, applying these abstract theories to model and analyze fading, dynamic wireless channels and performance metrics like diversity gain proves highly complex.",
+      "overview": "This course provides a comprehensive introduction to the fundamental mathematical limits of communication systems. It covers how information is measured, the ultimate capacity of a communication channel, and the theoretical limits of data compression and error correction.",
+      "topics": "Introduction to probability and random variables;elements of a digital communication system,Introduction to Information Theory,Gaussian Channel,Wireless Channel,Source coding theorem; classes of source codes; Shannon-Fano code; Huffman code; data compression techniques,Channel coding theorem; error detection and correction capabilities; repetition code; linear block codes; applications to physical layer security.",
+      "review by students": [
+        "This is a mathematically rigorous course that defines the **absolute limits of communication**. The initial difficulty is grasping the abstraction of **entropy** and using it to calculate **mutual information** and **channel capacity**.",
+        "Extremely useful (5/5) for communication engineers. Deriving the **Shannon-Hartley theorem** is challenging but crucial. The conceptual separation between **source coding (Huffman)** and **channel coding (Linear Block Codes)** based on their theorems is a major focus.",
+        "The most conceptually difficult section was modeling and analyzing the **Wireless Channels**—specifically, extending capacity concepts to **fading and MIMO systems**. Requires excellent knowledge of **Probability and Random Processes**.",
+        "This course is the 'why' behind all communication systems. It shows the fundamental limits. While the coding itself (e.g., Huffman) is straightforward, understanding the **coding theorems** and their theoretical implications requires intense mathematical effort.",
+        "Be ready for abstract math and proofs. Profoundly useful, as it underpins all data compression and error correction. I highly recommend mastering **Discrete Memoryless Channels (DMCs)** before moving onto the more complex **Gaussian and Wireless Channels**."
+      ],
+      "prerequisites": "Knowledge of digital communication,Probability and Random Processes",
+      "credits": "3",
+      "course_code": "PEC:ECL-360 ",
+      "semester": "2026 Spring"
+    },
+    {
+      "name": "Communication systems",
+      "instructor": "prof. Abhay Kumar Sah and porf.Ekant Sharma",
+      "difficulty": "3 out of 5",
+      "usefulness": "5 out of 5",
+      "challenges": "Mathematical optimisation would be difficult and mostly it will be coding in matlab , so should have basic understanding in matlab ",
+      "overview": "The course provides an introduction to fundamental communication system concepts, beginning with practical implementation of techniques like sampling and quantization using MATLAB. It then transitions to the application of mathematical optimization methods for solving real-world wireless problems, specifically determining the optimal location and grid structure of cell towers and analyzing communication performance using various path loss models.",
+      "topics": "",
+      "review by students": [
+        "This course is a highly practical introduction to wireless systems. The 5/5 usefulness is accurate, but the challenge lies in the **MATLAB implementation**. We spent significant time coding fundamental concepts like **sampling and quantization**, which helps cement the theory.",
+        "The co-instructors, Prof. Sah and Prof. Sharma, did a great job linking basic comms theory to real-world problems. The part on **cellular system planning**—determining optimal **cell tower locations** and grid structures using **mathematical optimization**—was the most difficult but also the most valuable.",
+        "As the review says, having an interest in **wireless communication** and **coding** is essential. The **optimization problems** were tough, demanding more than just basic calculus; you need to think algorithmically. If you enjoy solving problems with code, take it.",
+        "The course is an excellent starting point for advanced wireless research. Learning to analyze performance using different **path loss models** in MATLAB was invaluable. You must have a basic grasp of **MATLAB** before starting, or you'll quickly fall behind on the assignments.",
+        "A very unique course that moves beyond simple theory into application. The use of **USRP** (mentioned in prerequisites) for potential practical work or demos gives a taste of Software Defined Radio. It's a great choice for those who want to see the intersection of math, coding, and communication engineering."
+      ],
+      "prerequisites": "MATLAB and USPR",
+      "credits": "2",
+      "course_code": "TEB:ECT-104 ",
+      "semester": "2025 Spring"
+    },
+    {
+      "name": "Device Modeling",
+      "instructor": "prof.Biplab Sarkar and prof. AvirupDas Gupta",
+      "difficulty": "4 out of 5",
+      "usefulness": "3 out of 5",
+      "challenges": "The core difficulty lies in securing the necessary raw data and parameters from research papers to initiate the modeling process. A critical challenge is ensuring accurate TCAD-to-measurement correlation, where errors in defining the physical device structure leads to invalid simulated I-V data. The ICCAP model optimization is highly challenging, requiring iterative, non-linear fitting to find the global optimum parameters that simultaneously satisfy complex I-V and C-V curves. Furthermore, conceptually linking physical fabrication parameters in TCAD to the resulting analytical compact model parameters for predictive modeling remains a significant hurdle.",
+      "overview": "The project focuses on the complete flow for developing an accurate compact model for Power MOSFETs, which is essential for circuit-level simulations (like SPICE).TCAD (Technology Computer-Aided Design) Phase: The initial step involves process and device simulation using Synopsys TCAD. This is a physics-based approach where you define fabrication parameters (like doping profiles and device structure) and simulate the resulting electrical characteristics, such as Current-Voltage (I–V) curves. This step provides the synthetic data that links fabrication to electrical performance.ICCAP (Integrated Circuit Characterization and Analysis Program) Phase: This phase uses Keysight ICCAP to perform the core modeling work. You take the I–V data (either simulated from TCAD or experimental) and use it to execute parameter extraction. This means finding the optimal values for the variables in an analytical model (like BSIM or a power device-specific model) so that the model's output curve perfectly fits the measured or simulated data. This results in the final accurate SPICE model for use by circuit designers.",
+      "topics": "",
+      "review by students": [
+        "This project is the complete, real-world **compact modeling flow**. You must love doing iterative work to get optimized solutions, as the existing review states. The **TCAD-to-ICCAP correlation** is a massive headache, but succeeding means you’ve mastered the core skill of a device engineer.",
+        "The 4/5 difficulty is well earned. The hardest part is the **ICCAP model optimization**; trying to find a single set of parameters that accurately fits both the **I-V and C-V curves** simultaneously is an iterative, **non-linear fitting nightmare**. Excellent for building debugging and optimization skills.",
+        "Highly specialized and unique course. Understanding how the **physical fabrication parameters** defined in **Synopsys TCAD** translate into the compact model variables is the most difficult conceptual hurdle. It truly bridges physics and circuit simulation.",
+        "The course is great if you want to go into advanced semiconductor R&D or modeling teams. Be prepared for a huge learning curve on both **TCAD** and **ICCAP** software. Securing the necessary **raw data/parameters** often turns into a separate research effort.",
+        "Very hands-on and practical. The goal of generating an accurate **SPICE model for Power MOSFETs** is a valuable deliverable. The low usefulness rating (3/5) might reflect its niche nature, but for core device modelers, it's 5/5 essential."
+      ],
+      "prerequisites": "NA",
+      "credits": "2",
+      "course_code": "TEB:ECT-118  ",
+      "semester": "2025 Atumn"
+    },
+    {
+      "name": "Analog Circuit Design",
+      "instructor": "prof. Sarvana Kumar ",
+      "difficulty": "4 out of 5",
+      "usefulness": "5 out of 5",
+      "challenges": "Practical debugging, long lab sessions, reconciling measured outputs with simulations and mastering network theory",
+      "overview": "Analog circuit design and laboratory implementation centered on network-theory concepts and real-circuit behavior.",
+      "topics": "",
+      "review by students": [
+        "This is where **Network Theory concepts meet the practical world**, and it’s a huge reality check. The lab sessions are **notoriously long** (getting output after working 8hrs is normal). If you love analog, take it; if you are a software person, this is highly not recommended.",
+        "The 5/5 usefulness is accurate for core electronics. The difficulty (4/5) stems entirely from **practical debugging**. You spend hours trying to **reconcile measured outputs with simulations**, a challenging but essential skill taught by Prof. Kumar.",
+        "Be ready to **give a lot of time**. You don't get results as you expected on the first try, and that's the whole point. This course teaches the messy reality of component tolerances and parasitics, forcing you to **work a lot** to get clean data.",
+        "A very competitive and demanding course. Success hinges on **mastering Network Theory** because every design requires a deep analytical foundation. The reward is immense—true proficiency in **real-circuit behavior**—but the effort required is massive.",
+        "The course is great, but prepare for the grind. It forces you to develop crucial **debugging skills** that you simply don't get from pure simulation. Prof. Kumar pushes you to understand why the real circuit deviates from the ideal model. Only take it if you really, **really loved analog**."
+      ],
+      "prerequisites": "Network Theory ",
+      "credits": "2",
+      "course_code": "TEB:ECT-113  ",
+      "semester": "2025 Atumn"
+    },
+    {
+      "name": "Design of Passive Microwave Components",
+      "instructor": "prof. Darshak Bhatt",
+      "difficulty": "3 out of 5",
+      "usefulness": "5 out of 5",
+      "challenges": "Cadence workflow, layout steps, simulation setup and design validation",
+      "overview": "Design and simulation of passive microwave components and basic MOS/analog circuits using Cadence, including layout practice.",
+      "topics": "Common source amplifer,Ring oscillator,low Noice Amplifier",
+      "review by students": [
+        "This course provides invaluable **hands-on experience in analog VLSI design** using the industry standard, **Cadence software**. The initial struggle with the **Cadence workflow** and unfamiliar tools is the main difficulty, but Prof. Bhatt's guidance is excellent.",
+        "The 5/5 usefulness is well-deserved; this is essential for Analog/RF IC design. We learned how to design and simulate core blocks like the **Common Source Amplifier** and the **Ring Oscillator**. **Layout practice** was challenging—it takes time to build confidence and use the tool effectively.",
+        "The difficulty rating (3/5) is fair; the concepts are foundational, but the **simulation setup** and achieving **design validation** that matches specifications takes patience. You need to be familiar with **Analog Circuits** and **SPICE concepts** beforehand.",
+        "Learning the entire **layout process** for components like the **Low Noise Amplifier (LNA)** was the biggest takeaway. The course teaches you why a schematic simulation differs from post-layout results, which is critical. Highly recommended if you want tangible VLSI skills.",
+        "This course effectively bridges theory and application. As the previous review states, **learning a new software is challenging**, and you must dedicate time to practice the meticulous **layout steps**. If you're targeting IC design, this course provides the core software competency."
+      ],
+      "prerequisites": "Yes, it requires basic knowledge of electronic circuits, semiconductor devices, and circuit analysis.Familiarity with tools like SPICE or basic simulation concepts is also helpful,Analog circuits ",
+      "credits": "2",
+      "course_code": "TEB:ECT-102  ",
+      "semester": "2025 Atumn"
+    },
+    {
+      "name": "Digital System Design Using High Level Language",
+      "instructor": "prof.Bishnu Prasad das ",
+      "difficulty": "5 out of 5",
+      "usefulness": "5 out of 5",
+      "challenges": "High-level synthesis flows, FPGA implementation details and hardware debugging",
+      "overview": "Digital hardware design using high-level languages (C/C++) and HLS tools for FPGA prototyping and implementation.",
+      "topics": "",
+      "review by students": [
+        "This is a cutting-edge course and truly earned its 5/5 difficulty. The move from **Verilog** to **HLS using C/C++** is a huge paradigm shift. Mastering the **High-Level Synthesis flows** and understanding how C code translates to efficient hardware logic is the core, tough challenge.",
+        "The course is incredibly useful (5/5) for modern hardware design. It was my **first time working on hardware** (FPGA implementation), which was a steep learning curve. **Hardware debugging** when the synthesized logic doesn't perform as expected is a major time sink.",
+        "The initial review is correct: we **learnt new things**, particularly how to write C code optimized for synthesis. Don't rely solely on AI for coding; you need to grasp the **FPGA implementation details** and understand clocking/resource usage to write efficient HLS code.",
+        "If you want to work on acceleration or system-level prototyping, this course is a must. The prerequisite knowledge of **Verilog and digital design logic** is essential to judge the quality of the synthesized C/C++ code. The difficulty is high, but the skills are highly marketable.",
+        "Excellent, project-driven course. The challenge is not in the syntax, but in the **architecture and optimization**. You need to continuously iterate on your C/C++ to improve the area, latency, and throughput of the generated hardware. Be prepared to spend significant time optimizing your HLS design."
+      ],
+      "prerequisites": "Verilog and digital disign logic",
+      "credits": "2",
+      "course_code": "TEB:ECT-110",
+      "semester": "2025 Spring"
+    }
+]
