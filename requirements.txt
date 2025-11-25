@@ -1,4 +1,7 @@
 streamlit
-pandas
-numpy
-scikit-learn
+langchain-community==0.0.35
+langchain-core==0.1.1
+langchain-text-splitters==0.0.1
+pydantic==2.5.3  # Required dependency for LangChain components
+chroma-db==0.4.24 # The vector store library
+ollama==0.1.7 # The library to communicate with the Ollama server (for embeddings and LLM) 
