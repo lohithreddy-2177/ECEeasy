@@ -1,7 +1,16 @@
 streamlit
-langchain-community==0.0.35
-langchain-core==0.1.1
+
+# LangChain versions compatible with Streamlit
+langchain==0.1.13
+langchain-community==0.0.21
+langchain-core==0.1.20
 langchain-text-splitters==0.0.1
-pydantic==2.5.3  # Required dependency for LangChain components
-chroma-db==0.4.24 # The vector store library
-ollama==0.1.7 # The library to communicate with the Ollama server (for embeddings and LLM) 
+
+# Pydantic (compatible with these LC versions)
+pydantic==2.6.1
+
+# ChromaDB stable version for Streamlit cloud
+chromadb==0.3.29
+
+# Ollama client
+ollama==0.1.7
