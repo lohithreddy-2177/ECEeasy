@@ -56,7 +56,7 @@ eceeasy_advanced/
 └── README.md             # This file
 ~~~
 
-Prerequisites
-Python 3.8+
-Ollama installed locally
-Llama3 model downloaded in Ollama
+Prerequisites  
+Python 3.8+  
+Ollama installed locally  
+Llama3 model downloaded in Ollama  
