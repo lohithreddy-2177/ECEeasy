@@ -1,20 +1,23 @@
+🎓 ECEEasy - ECE Course Assistant.
+
 A sophisticated Retrieval-Augmented Generation (RAG) system designed to help Electrical and Computer Engineering (ECE) students explore course information, reviews, and insights using natural language queries.
-✨ Features
-Natural Language Queries: Ask questions about courses in plain English
+✨ Features.
+Natural Language Queries: Ask questions about courses in plain English.
 
-Course-Specific Filtering: Automatically detects course names from queries for precise retrieval
+Course-Specific Filtering: Automatically detects course names from queries for precise retrieval.
 
-Comprehensive Course Information: Access details on instructors, difficulty, usefulness, challenges, reviews, and more
+Comprehensive Course Information: Access details on instructors, difficulty, usefulness, challenges, reviews, and more.
 
-Smart Context Management: Advanced chunking strategies with optimal overlap for better context retention
+Smart Context Management: Advanced chunking strategies with optimal overlap for better context retention.
 
-Local LLM Integration: Runs entirely offline using Ollama with Llama3 model
+Local LLM Integration: Runs entirely offline using Ollama with Llama3 model.
 
-Vector Search: Efficient semantic search using ChromaDB and embeddings
+Vector Search: Efficient semantic search using ChromaDB and embeddings.
 
-Student Review Analysis: Aggregates and synthesizes multiple student perspectives
+Student Review Analysis: Aggregates and synthesizes multiple student perspectives.
 
-📋 Supported Queries
+📋 Supported Queries.
+
 Ask about any aspect of ECE courses:
 
 "Who teaches Digital Signal Processing?"
