@@ -5,7 +5,6 @@ A sophisticated Retrieval-Augmented Generation (RAG) system designed to help Ele
 ✨ Features
 
 Natural Language Queries: Ask questions about courses in plain English
-
 Course-Specific Filtering: Automatically detects course names from queries for precise retrieval
 
 Comprehensive Course Information: Access details on instructors, difficulty, usefulness, challenges, reviews, and more
